@@ -12,37 +12,6 @@ The application utilizes the following Syncfusion components:
 - Spreadsheet
 - Presentation Viewer
 
-## Prerequisites
-
-Before running the application, ensure the following software is installed:
-
-- Python 3.10 or later
-- Node.js 18.x or later
-- npm or yarn
-- Syncfusion License Key (if applicable)
-
-## Project Structure
-
-```
-python-web-service
-│
-├── app.py
-├── requirements.txt
-├── Dockerfile
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── viewers/
-│   │   │       ├── DocEditor.tsx
-│   │   │       ├── PdfViewer.tsx
-│   │   │       ├── SpreadsheetEditor.tsx
-│   │   │       ├── PresentationViewer.tsx
-│   │   │       └── SidePanel Components
-│   │   └── ...
-│   └── ...
-└── .NET Standard Wrapper Library/
-```
-
 ---
 
 ## Word Document
@@ -125,23 +94,39 @@ Highlight multiple passages and navigate between them without modifying the orig
 
 ## Server-Side Setup (Python Web Service)
 
-### Install Dependencies
+### Navigate to the .NET Wrapper Project
 
 ```bash
-pip install -r requirements.txt
+cd .NET Standard Wrapper Library
 ```
 
-### Build the .NET Standard Wrapper Library
+### Build and Publish the .NET Standard Wrapper Library
 
 ```bash
 dotnet build -c Release
 dotnet publish -c Release
 ```
 
+### Navigate to the Python Web Service
+
+```bash
+cd ../python-web-service
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
 ### Start the Python Service
 
 ```bash
 python app.py
+
+or
+
+py app.py
 ```
 
 Service URL:
@@ -153,6 +138,18 @@ http://127.0.0.1:5000/
 ---
 
 ## Client-Side Setup
+
+### Navigate to the React Application
+
+```bash
+cd frontend
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
 
 ### Configure Service URLs
 
@@ -173,12 +170,6 @@ saveUrl = "http://127.0.0.1:5000/SaveExcel"
 
 ```typescript
 url = "http://127.0.0.1:5000/PPTLoadFile"
-```
-
-### Install Dependencies
-
-```bash
-npm install
 ```
 
 ### Run the Application
