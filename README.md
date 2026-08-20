@@ -79,15 +79,6 @@ This sample demonstrates how to create clickable highlighted text that navigates
 
 Extract speaker notes from all slides and provide programmatic navigation to specific slides.
 
-### Implementation
-
-The sample uses the Syncfusion PowerPoint Library to:
-
-- Extract speaker notes from PPTX files.
-- Convert PPTX documents to PDF.
-- Display converted content using Syncfusion PDF Viewer.
-- Display extracted notes in a side panel.
-
 ### Features
 
 - Speaker notes extraction.
@@ -202,22 +193,28 @@ Open the application using the URL displayed in the terminal.
 
 ## Screenshots
 
-### DOCX Editor
+### Word Documents
 
-_Add screenshot here_
-
-### PDF Viewer
-
-_Add screenshot here_
-
-### Spreadsheet Viewer
-
-_Add screenshot here_
+<p align="center"> 
+<img src="Images/Word-Document-Demo.png" alt="Word Document Demo page"/> 
+</p>
 
 ### Presentation Viewer
 
-_Add screenshot here_
+<p align="center"> 
+<img src="Images/Presentation-Demo.png" alt="Presentation Demo page"/> 
+</p>
 
+### Spreadsheet Viewer
+<p align="center"> 
+<img src="Images/Spreadsheet-Demo.png" alt="Spreadsheet Demo page"/> 
+</p>
+
+### PDF Viewer
+
+<p align="center"> 
+<img src="Images/Pdf-Viewer-Demo.png" alt="PDF Viewer Demo page"/> 
+</p>
 
 # License 
 
