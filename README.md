@@ -1,14 +1,14 @@
-# Programmatic Navigation in DOCX Editor, Spreadsheet, Presentation, and PDF Viewer
+# Programmatic Navigation in DOCX Editor, Spreadsheet Editor, Presentation, and PDF Viewer
  
-This sample demonstrates programmatic search, highlighting, and navigation capabilities across Syncfusion DOCX Editor, Presentation, Spreadsheet, and PDF Viewer using a React frontend and Python backend.
+This sample demonstrates programmatic search, highlighting, and navigation capabilities across Syncfusion DOCX Editor, Presentation, Spreadsheet Editor, and PDF Viewer using a React frontend and Python backend.
 
 ## Components Used
 
 The application utilizes the following Syncfusion components:
 
-- Document Editor
+- DOCX Editor
 - PDF Viewer
-- Spreadsheet
+- Spreadsheet Editor
 - Presentation Viewer
 
 ---
